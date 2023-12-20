@@ -1,0 +1,80 @@
+<html>
+<head>
+   <title> Web technologies</title>
+   <style>
+    b
+    {
+        font-color:rgba(70, 21, 175, 0.93);
+    }
+    </style>
+</head>
+<body align="middle">
+    <h1><b><u>Time table</u></b></h1>
+    <table border="5" cellspacing="0" cellpadding="2" align="middle">
+    <tr>
+        <th>Period</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+        <th>VII</th>
+        <th>VIII</th>
+    </tr>
+    <tr>
+        <td><b>Monday</b></td>
+        <td>maths</td>
+        <td colspan="3">WT lab</td>
+        <td rowspan="6"><pre><b>
+    L
+    U 
+    N 
+    C 
+    H 
+        </b></pre></td>
+        <td>Comp</td>
+        <td>CN</td>
+        <td>cpp</td>
+    </tr>
+    <tr>
+        <td><b>Tuesday</b></td>
+        <td>CN</td>
+        <td>Cpp</td>
+        <td>maths</td>
+        <td>WT</td>
+        <td colspan="3">Cpp lab</td>
+    </tr>
+    <tr>
+        <td><b>Wednesday</b></td>
+        <td>Comp</td>
+        <td>maths</td>
+        <td>WT</td>
+        <td>Cpp</td>
+        <td colspan="3">CHNM lab</td>
+    </tr>
+    <tr>
+        <td><b>Thursday</b></td>
+        <td>maths</td>
+        <td colspan="3">WT lab</td>
+        <td colspan="2">CN</td>
+        <td>Comp</td>
+    </tr>
+    <tr>
+        <td><b>Friday</b></td>
+        <td>Cpp</td>
+        <td colspan="3">Cpp lab</td>
+        <td colspan="2">Cpp</td>
+        <td>Comp</td>
+    </tr>
+    <tr>
+    <td><b>Saturday</b></td>
+        <td>maths</td>
+        <td colspan="3">Communication lab</td>
+        <td>Wt</td>
+        <td>Comp</td>
+        <td>CN</td>
+    </tr>
+</table>
+</body>
+</html>
