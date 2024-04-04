@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+    input{
+        text-align:center;
+    }
+label
+{
+    color:#0000ff;
+    font-size:16px;
+    font-weight:bolder;
+    font-family:lucida calligraphy;
+    text-decoration: underline;
+    text-decoration-color:#00ff00;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+h1
+{
+    color:#2b00ff;
+    font-family:Lucida Calligraphy;
+    text-decoration: underline;
+    text-align:center;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+fieldset
+{
+    border-color:blue;
+    background-color:yellow;
+}
+legend
+{
+    color:#ff0000;
+    font-size:25px;
+    font-family:lucida calligraphy;
+    text-decoration: underline;
+    font-weight:bolder;
+}
+.f
+{
+    background-color:#00ffff;
+    font-family:lucida calligraphy;
+}
+form  
+{
+     display:block;      
+}
+input 
+{
+    display: table-cell; 
+}
+.hey
+{
+    color:#1100ff;
+}
+select
+{
+    color:red;
+    background-color:#00ff00;
+    width:170px;
+}
+</style>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form>
+    <fieldset style="background-color:#00ffff;">
+    <fieldset>
+        <legend>Personal details</legend>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="enter your name here"><br>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="enter your username here"><br>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="enter your password here"><br>
+            <label>Address:</label>
+            <textarea row="5" col="10" ></textarea><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender"><b>male</b>
+            <input type="radio" name="gender"><b>female</b><br>
+    </fieldset>
+    <fieldset>
+        <legend>Educational details</legend>
+            <label>Course:</label>
+            <select>
+                <optgroup label="Cse" class="hey">
+                    <option>wt</option>
+                    <option>oops</option>
+                    <option>cn</option>
+                    <option>os</option>
+                </optgroup>
+                <optgroup label="Ece" class="hey">
+                    <option>Ec</option>
+                    <option>Mp</option>
+                    <option>Na</option>
+                    <option>De</option>
+                </optgroup>
+            </select>
+    </fieldset>
+    <fieldset>
+        <legend>Languages & Hobbies</legend>
+            <label>Languages known:</label><br>
+            <input type="radio" name="Telugu"><b>Telugu</b><br>
+            <input type="radio" name="English"><b>English</b><br>
+            <input type="radio" name="Hindi"><b>Hindi</b><br><br>
+            <label>Hobbies:</label><br>
+            <input type="checkbox" name="dancing"><b>Dancing</b><br>
+            <input type="checkbox" name="singing"><b>Singing</b><br>
+            <input type="checkbox" name="Painting"><b>Painting</b><br>
+    </fieldset>
+    <br>
+        <input type="submit" name="submit" style="background-color:#f51d1d;font-family:lucida calligraphy;font-weight:bold;font-size:15px;">
+        <input type="reset" name="reset" style="background-color:#2bff00;font-family:lucida calligraphy;font-weight:bold;font-size:15px;">
+    </fieldset>
+</body>
+<footer>
+    @copyright registration-aditya polytechnic college,surampalem,533005,9876543210
+</footer>
+</html>
